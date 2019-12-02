@@ -2058,7 +2058,7 @@ p5.Element.prototype.size = function(w, h) {
 };
 
 /**
- * Removes the element and deregisters all listeners.
+ * Removes the element, stops all media streams, and deregisters all listeners.
  * @method remove
  * @example
  * <div class='norender'><code>
@@ -2067,6 +2067,15 @@ p5.Element.prototype.size = function(w, h) {
  * </code></div>
  */
 p5.Element.prototype.remove = function() {
+  // stop all audios/videos and detach all devices like microphone/camera etc
+  // used as input/output for audios/videos.
+  if (this instanceof p5.MediaElement) {
+    const tracks = this.elt.srcObject.getTracks();
+    tracks.forEach(function(track) {
+      track.stop();
+    });
+  }
+
   // deregister events
   for (var ev in this._events) {
     this.elt.removeEventListener(ev, this._events[ev]);

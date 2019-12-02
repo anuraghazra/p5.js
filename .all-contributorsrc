@@ -1531,7 +1531,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/38842688?s=460&v=4",
       "profile": "https://github.com/singhvisha",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -1634,6 +1635,24 @@
       "contributions": [
         "infra",
         "review"
+      ]
+    },
+    {
+      "login": "ashu8912",
+      "name": "ashu8912",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30126128?v=4",
+      "profile": "https://github.com/ashu8912",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ffd8",
+      "name": "ffd8",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/570957?v=4",
+      "profile": "http://teddavis.org",
+      "contributions": [
+        "code"
       ]
     }
   ],

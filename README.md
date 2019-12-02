@@ -14,7 +14,7 @@ If you have found a bug in the p5.js library, you can file it here under the [�
 
 ## p5.js library
 
-To use the complete p5.js library, you can [download it here](http://p5js.org/download). If you are interested in the most recent, less stable version, or even simply in (**new!**) certain components of p5.js, you can clone this repository and run `grunt` from the command line to generate the library from source. See the [developer docs](https://github.com/processing/p5.js/blob/master/developer_docs/) for more information about our build process to generate the complete as well as selective library.
+To use the complete p5.js library, you can [download it here](http://p5js.org/download). If you are interested in the most recent, less stable version, or even simply in (**new!**) certain components of p5.js, you can clone this repository and run `grunt` from the command line to generate the library from source. See the [developer docs](https://github.com/processing/p5.js/blob/master/contributor_docs/) for more information about our build process to generate the complete as well as selective library.
 
 You can also start with the [codepen template](https://codepen.io/p5js/pen/wreBKy). You may need to update the version of the p5.js library that is linked into the html section.
 
@@ -45,7 +45,7 @@ Check out [p5js.org](http://p5js.org) for lots more! Here are some quick-links:
 
 p5.js is a collaborative project created by many individuals, and you are invited to help. All types of involvement are welcome. See the [community section](http://p5js.org/community) to get started!
 
-Developers, check out the [developer docs](https://github.com/processing/p5.js/blob/master/developer_docs/) for more in-depth details about contributing code, bug fixes, and documentation.
+Developers, check out the [developer docs](https://github.com/processing/p5.js/blob/master/contributor_docs/) for more in-depth details about contributing code, bug fixes, and documentation.
 
 ## Contributors
 
@@ -316,7 +316,7 @@ We recognize all types of contributions. This project follows the [all-contribut
     <td align="center"><a href="https://hiradsab.com"><img src="https://avatars2.githubusercontent.com/u/11205091" width="100px;" alt="Hirad Sab"/><br /><sub><b>Hirad Sab</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=hsab" title="Code">💻</a> <a href="https://github.com/processing/p5.js/issues?q=author%3Ahsab" title="Bug reports">🐛</a> <a href="https://github.com/processing/p5.js/commits?author=hsab" title="Documentation">📖</a> <a href="#example-hsab" title="Examples">💡</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/singhvisha"><img src="https://avatars0.githubusercontent.com/u/38842688?s=460&v=4" width="100px;" alt="Vishal Singh"/><br /><sub><b>Vishal Singh</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=singhvisha" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/singhvisha"><img src="https://avatars0.githubusercontent.com/u/38842688?s=460&v=4" width="100px;" alt="Vishal Singh"/><br /><sub><b>Vishal Singh</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=singhvisha" title="Documentation">📖</a> <a href="https://github.com/processing/p5.js/commits?author=singhvisha" title="Code">💻</a></td>
     <td align="center"><a href="https://www.coreygo.com"><img src="https://avatars1.githubusercontent.com/u/649879?v=4" width="100px;" alt="Corey Gouker"/><br /><sub><b>Corey Gouker</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=coreygo" title="Code">💻</a> <a href="https://github.com/processing/p5.js/commits?author=coreygo" title="Documentation">📖</a> <a href="https://github.com/processing/p5.js/issues?q=author%3Acoreygo" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://www.lisamabley.codes"><img src="https://avatars3.githubusercontent.com/u/6124489?v=4" width="100px;" alt="Lisa Mabley"/><br /><sub><b>Lisa Mabley</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=LisaMabley" title="Documentation">📖</a> <a href="#example-LisaMabley" title="Examples">💡</a></td>
     <td align="center"><a href="https://www.amf.fyi"><img src="https://avatars3.githubusercontent.com/u/3698659?v=4" width="100px;" alt="Adam Ferriss"/><br /><sub><b>Adam Ferriss</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=aferriss" title="Code">💻</a> <a href="https://github.com/processing/p5.js/commits?author=aferriss" title="Documentation">📖</a> <a href="https://github.com/processing/p5.js/issues?q=author%3Aaferriss" title="Bug reports">🐛</a> <a href="#example-aferriss" title="Examples">💡</a></td>
@@ -329,6 +329,8 @@ We recognize all types of contributions. This project follows the [all-contribut
     <td align="center"><a href="https://github.com/dhruvs009"><img src="https://avatars1.githubusercontent.com/u/39025961?v=4" width="100px;" alt="Dhruv Sahnan"/><br /><sub><b>Dhruv Sahnan</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=dhruvs009" title="Code">💻</a> <a href="https://github.com/processing/p5.js/commits?author=dhruvs009" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/jjkaufman"><img src="https://avatars0.githubusercontent.com/u/1706950?s=460&v=4" width="100px;" alt="Jon Kaufman"/><br /><sub><b>Jon Kaufman</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=jjkaufman" title="Documentation">📖</a></td>
     <td align="center"><a href="https://gruselhaus.com"><img src="https://avatars2.githubusercontent.com/u/33380107?v=4" width="100px;" alt="Nico Finkernagel"/><br /><sub><b>Nico Finkernagel</b></sub></a><br /><a href="#infra-gruselhaus" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#review-gruselhaus" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/ashu8912"><img src="https://avatars1.githubusercontent.com/u/30126128?v=4" width="100px;" alt="ashu8912"/><br /><sub><b>ashu8912</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=ashu8912" title="Code">💻</a></td>
+    <td align="center"><a href="http://teddavis.org"><img src="https://avatars2.githubusercontent.com/u/570957?v=4" width="100px;" alt="ffd8"/><br /><sub><b>ffd8</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=ffd8" title="Code">💻</a></td>
   </tr>
 </table>
 
