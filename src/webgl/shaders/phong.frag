@@ -1,6 +1,5 @@
 // include lighting.glsl
 precision highp float;
-precision highp int;
 
 uniform vec4 uMaterialColor;
 uniform sampler2D uSampler;

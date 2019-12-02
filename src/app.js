@@ -83,7 +83,6 @@ import './webgl/p5.RendererGL.Immediate';
 import './webgl/p5.RendererGL';
 import './webgl/p5.RendererGL.Retained';
 import './webgl/p5.Shader';
-import './webgl/p5.RenderBuffer';
 import './webgl/p5.Texture';
 import './webgl/text';
 

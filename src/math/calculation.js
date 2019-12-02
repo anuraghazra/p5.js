@@ -663,17 +663,8 @@ p5.prototype.pow = Math.pow;
  *
  * @method round
  * @param  {Number} n number to round
- * @param  {Number} [decimals] number of decimal places to round to, default is 0
  * @return {Integer}  rounded number
  * @example
- * <div><code>
- * let x = round(3.7);
- * text(x, width / 2, height / 2);
- * </code></div>
- * <div><code>
- * let x = round(12.782383, 2);
- * text(x, width / 2, height / 2);
- * </code></div>
  * <div><code>
  * function draw() {
  *   background(200);
@@ -700,17 +691,10 @@ p5.prototype.pow = Math.pow;
  * </code></div>
  *
  * @alt
- * "3" written in middle of canvas
- * "12.78" written in middle of canvas
  * horizontal center line squared values displayed on top and regular on bottom.
  *
  */
-p5.prototype.round = (n, decimals) => {
-  if (!decimals) {
-    return Math.round(n);
-  }
-  return Number(Math.round(n + 'e' + decimals) + 'e-' + decimals);
-};
+p5.prototype.round = Math.round;
 
 /**
  * Squares a number (multiplies a number by itself). The result is always a
