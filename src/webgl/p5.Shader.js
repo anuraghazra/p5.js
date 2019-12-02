@@ -485,10 +485,6 @@ p5.Shader.prototype.isLightShader = function() {
   );
 };
 
-p5.Shader.prototype.isNormalShader = function() {
-  return this.attributes.aNormal !== undefined;
-};
-
 p5.Shader.prototype.isTextureShader = function() {
   return this.samplerIndex > 0;
 };
